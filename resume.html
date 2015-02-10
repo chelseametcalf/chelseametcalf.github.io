@@ -27,6 +27,12 @@
 <link rel="stylesheet" href="styles/layout.css" type="text/css" />
 <link rel="stylesheet" type="text/css" href="cssResume/component.css" />
 <script src="scripts/modernizr.custom.js"></script>
+<script type="text/javascript" src="scripts/jquery-1.4.1.min.js"></script>
+<script> 
+$(function(){
+  $("#footerFile").load("footer.html"); 
+});
+</script>
 </head>
 <body id="top">
 <div class="wrapper col0">
@@ -49,11 +55,11 @@
         <li><a href="graphics.html">Graphics</a><span></span></li>
         <li><a href="projects.html">Projects</a><span></span></li>
         <li><a href="photography.html">Photography</a><span></span></li>
-        <li><a href="Home.html">Homepage</a><span></span></li>
+        <li><a href="index.html">Homepage</a><span></span></li>
       </ul>
     </div>
     <div id="logo">
-      <h1><a href="Home.html"><strong>T</strong>op <strong>R</strong>ight <strong>P</strong>ixel</a></h1>
+      <h1><a href="index.html"><strong>T</strong>op <strong>R</strong>ight <strong>P</strong>ixel</a></h1>
       <p>Portfolio of Chelsea Metcalf</p>
     </div>
     <br class="clear" />
@@ -167,11 +173,6 @@
   </div>
 </div>
 <!-- ####################################################################################################### -->
-<div class="wrapper col5">
-  <div id="copyright">
-    <p class="fl_left">Copyright &copy; 2014 - All Rights Reserved - <a href="#">Top Right Pixel</a></p>
-    <br class="clear" />
-  </div>
-</div>
+<div id="footerFile"></div>
 </body>
 </html>
