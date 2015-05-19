@@ -12,6 +12,9 @@
 <link rel="stylesheet" href="styles/layout2.css" type="text/css" />
 <link rel="stylesheet" type="text/css" href="cssPhotography/demo.css" />
 <link rel="stylesheet" type="text/css" href="cssPhotography/style3.css" />
+<link rel="stylesheet" type="text/css" href="PageNav/css/normalize.css" />
+<link rel="stylesheet" type="text/css" href="PageNav/css/component.css" />
+<script src="PageNav/js/modernizr.min.js"></script>
 <script type="text/javascript" src="scripts/jquery-1.4.1.min.js"></script>
 <script> 
 $(function(){
@@ -53,8 +56,6 @@ $(function(){
 </div>
 <!-- ####################################################################################################### -->
 <div class="wrapper col2">
-  <div id="breadcrumb">
-  <h>Click the photo to enlarge</h>
   	  <section>
       <ul class="lb-album">
 					<li>
@@ -220,28 +221,42 @@ $(function(){
 					</li>
 				</ul>      
                 </section>
-  </div>
 </div>
 
-<div class="wrapper col6">
-  <div id="nextpage">
-    <p class="fl_left"><a href="photography4.html">&nbsp; <-- Previous Page</a></p>
-    <p class="fl_left"><a href="photography6.html">&nbsp; Next Page --></a></p>
-    <br class="clear" />
-  </div>
-    <br>
-</div>
 <!-- ####################################################################################################### -->
 <div class="wrapper col4">
   <div id="footer">
     <div class="box1">
-
     </div>
+      
     <br class="clear" />
   </div>
+    <div class="dotstyle dotstyle-fall">
+        <center>
+            <ul>
+                    <li><a href="photography.html">Photography1</a></li>
+                    <li><a href="photography2.html">Photography2</a></li>
+                    <li><a href="photography3.html">Photography3</a></li>
+                    <li><a href="photography4.html">Photography4</a></li>
+                    <li class="current"><a href="photography5.html">Photography5</a></li>
+                    <li><a href="photography6.html">Photography6</a></li>
+            </ul>
+        </center>
+    </div>
+    <br>
 </div>
 
 <!-- ####################################################################################################### -->
 <div id="footerFile"></div>
+<script src="PageNav/js/dots.js"></script>
+<script>
+        [].slice.call( document.querySelectorAll( '.dotstyle > ul' ) ).forEach( function( nav ) {
+                new DotNav( nav, {
+                        callback : function( idx ) {
+                                //console.log( idx )
+                        }
+                } );
+        } );
+</script>
 </body>
 </html>
