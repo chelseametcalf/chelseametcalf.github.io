@@ -22,6 +22,10 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 .spacer{padding: 6em 0;}
 
+/* CAM */
+.glyphicon-chevron-left:before{display:none;}
+.glyphicon-chevron-right:before{display:none;}
+
 .btn{border:none;border-radius: 0;padding: 1em 4em;background: rgba(0,0,0,0.5);text-transform: uppercase;}
 .btn:hover,.btn:active{color: #fff;}
 .btn-default{color: #ccc;border: 1px solid #aaa;}
