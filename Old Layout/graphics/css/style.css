@@ -1,0 +1,74 @@
+.hs_container{
+	position:relative;
+	width:655px;
+	height:310px;
+	overflow:hidden;
+	clear:both;
+	border:2px solid #ffff00;
+	cursor:pointer;
+	-moz-box-shadow:1px 1px 3px #222;
+	-webkit-box-shadow:1px 1px 3px #222;
+	box-shadow:1px 1px 3px #222;
+}
+.hs_container .hs_area{
+	position:absolute;
+	overflow:hidden;
+}
+.hs_area img{
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.hs_area img.hs_visible{
+	display:block;
+	z-index:9999;
+}
+.hs_area1{
+	border-right:0px solid #999;
+}
+.hs_area4, .hs_area5, .hs_area6{
+	border-top:2px solid #999;
+}
+.hs_area4{
+	border-right:0px solid #999;
+}
+.hs_area3{
+	border-top:0px solid #999;
+}
+.hs_area1{
+	width:192px;
+	height:180px;
+	top:0px;
+	left:30px;
+}
+.hs_area2{
+	width:192px;
+	height:150px;
+	top:0px;
+	left:240px;
+}
+.hs_area3{
+	width:192px;
+	height:150px;
+	top:0px;
+	left:450px;
+}
+.hs_area4{
+	width:192px;
+	height:150px;
+	top:165px;
+	left:30px;
+}
+.hs_area5{
+	width:192px;
+	height:150px;
+	top:165px;
+	left:240px;
+}
+.hs_area6{
+	width:192px;
+	height:150px;
+	top:165px;
+	left:450px;
+}
