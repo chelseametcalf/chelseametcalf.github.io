@@ -73,11 +73,11 @@
 
 /* Individual effects */
 
-/*---------------*/
-/***** Lily *****/
-/*---------------*/
+/*------------------------*/
+/***** EFFECT-PHOTO8 *****/
+/*----------------------*/
 
-figure.effect-lily img {
+figure.effect-photo8 img {
 	max-width: none;
 	width: -webkit-calc(100% + 50px);
 	width: calc(100% + 50px);
@@ -88,11 +88,11 @@ figure.effect-lily img {
 	transform: translate3d(-40px,0,0);
 }
 
-figure.effect-lily figcaption {
+figure.effect-photo8 figcaption {
 	text-align: left;
 }
 
-figure.effect-lily figcaption > div {
+figure.effect-photo8 figcaption > div {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -101,48 +101,48 @@ figure.effect-lily figcaption > div {
 	height: 50%;
 }
 
-figure.effect-lily h2,
-figure.effect-lily p {
+figure.effect-photo8 h2,
+figure.effect-photo8 p {
 	-webkit-transform: translate3d(0,40px,0);
 	transform: translate3d(0,40px,0);
 }
 
-figure.effect-lily h2 {
+figure.effect-photo8 h2 {
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 }
 
-figure.effect-lily p {
+figure.effect-photo8 p {
 	color: rgba(255,255,255,0.8);
 	opacity: 0;
 	-webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
 	transition: opacity 0.2s, transform 0.35s;
 }
 
-figure.effect-lily:hover img,
-figure.effect-lily:hover p {
+figure.effect-photo8:hover img,
+figure.effect-photo8:hover p {
 	opacity: 1;
 }
 
-figure.effect-lily:hover img,
-figure.effect-lily:hover h2,
-figure.effect-lily:hover p {
+figure.effect-photo8:hover img,
+figure.effect-photo8:hover h2,
+figure.effect-photo8:hover p {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-figure.effect-lily:hover p {
+figure.effect-photo8:hover p {
 	-webkit-transition-delay: 0.05s;
 	transition-delay: 0.05s;
 	-webkit-transition-duration: 0.35s;
 	transition-duration: 0.35s;
 }
 
-/*---------------*/
-/***** Sadie *****/
-/*---------------*/
+/*------------------------*/
+/***** EFFECT-PHOTO7 *****/
+/*----------------------*/
 
-figure.effect-sadie figcaption::before {
+figure.effect-photo7 figcaption::before {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -156,7 +156,7 @@ figure.effect-sadie figcaption::before {
 	transform: translate3d(0,50%,0);
 }
 
-figure.effect-sadie h2 {
+figure.effect-photo7 h2 {
 	position: absolute;
 	top: 50%;
 	left: 0;
@@ -168,13 +168,13 @@ figure.effect-sadie h2 {
 	transform: translate3d(0,-50%,0);
 }
 
-figure.effect-sadie figcaption::before,
-figure.effect-sadie p {
+figure.effect-photo7 figcaption::before,
+figure.effect-photo7 p {
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 }
 
-figure.effect-sadie p {
+figure.effect-photo7 p {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -185,29 +185,29 @@ figure.effect-sadie p {
 	transform: translate3d(0,10px,0);
 }
 
-figure.effect-sadie:hover h2 {
+figure.effect-photo7:hover h2 {
 	color: #fff;
 	-webkit-transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
 	transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
 }
 
-figure.effect-sadie:hover figcaption::before ,
-figure.effect-sadie:hover p {
+figure.effect-photo7:hover figcaption::before ,
+figure.effect-photo7:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-/*---------------*/
-/***** Roxy *****/
-/*---------------*/
+/*------------------------*/
+/***** EFFECT-PHOTO6 *****/
+/*----------------------*/
 
-figure.effect-roxy {
+figure.effect-photo6 {
 	background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
 	background: linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
 }
 
-figure.effect-roxy img {
+figure.effect-photo6 img {
 	max-width: none;
 	width: -webkit-calc(100% + 60px);
 	width: calc(100% + 60px);
@@ -217,7 +217,7 @@ figure.effect-roxy img {
 	transform: translate3d(-50px,0,0);
 }
 
-figure.effect-roxy figcaption::before {
+figure.effect-photo6 figcaption::before {
 	position: absolute;
 	top: 30px;
 	right: 30px;
@@ -232,16 +232,16 @@ figure.effect-roxy figcaption::before {
 	transform: translate3d(-20px,0,0);
 }
 
-figure.effect-roxy figcaption {
+figure.effect-photo6 figcaption {
 	padding: 3em;
 	text-align: left;
 }
 
-figure.effect-roxy h2 {
+figure.effect-photo6 h2 {
 	padding: 30% 0 10px 0;
 }
 
-figure.effect-roxy p {
+figure.effect-photo6 p {
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
@@ -249,39 +249,39 @@ figure.effect-roxy p {
 	transform: translate3d(-10px,0,0);
 }
 
-figure.effect-roxy:hover img {
+figure.effect-photo6:hover img {
 	opacity: 0.7;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-figure.effect-roxy:hover figcaption::before,
-figure.effect-roxy:hover p {
+figure.effect-photo6:hover figcaption::before,
+figure.effect-photo6:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-/*---------------*/
-/***** Bubba *****/
-/*---------------*/
+/*------------------------*/
+/***** EFFECT-PHOTO5 *****/
+/*----------------------*/
 
-figure.effect-bubba {
+figure.effect-photo5 {
 	background: #9e5406;
 }
 
-figure.effect-bubba img {
+figure.effect-photo5 img {
 	opacity: 0.7;
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
 
-figure.effect-bubba:hover img {
+figure.effect-photo5:hover img {
 	opacity: 0.4;
 }
 
-figure.effect-bubba figcaption::before,
-figure.effect-bubba figcaption::after {
+figure.effect-photo5 figcaption::before,
+figure.effect-photo5 figcaption::after {
 	position: absolute;
 	top: 30px;
 	right: 30px;
@@ -293,21 +293,21 @@ figure.effect-bubba figcaption::after {
 	transition: opacity 0.35s, transform 0.35s;
 }
 
-figure.effect-bubba figcaption::before {
+figure.effect-photo5 figcaption::before {
 	border-top: 1px solid #fff;
 	border-bottom: 1px solid #fff;
 	-webkit-transform: scale(0,1);
 	transform: scale(0,1);
 }
 
-figure.effect-bubba figcaption::after {
+figure.effect-photo5 figcaption::after {
 	border-right: 1px solid #fff;
 	border-left: 1px solid #fff;
 	-webkit-transform: scale(1,0);
 	transform: scale(1,0);
 }
 
-figure.effect-bubba h2 {
+figure.effect-photo5 h2 {
 	padding-top: 30%;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
@@ -315,7 +315,7 @@ figure.effect-bubba h2 {
 	transform: translate3d(0,-20px,0);
 }
 
-figure.effect-bubba p {
+figure.effect-photo5 p {
 	padding: 20px 2.5em;
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -324,44 +324,44 @@ figure.effect-bubba p {
 	transform: translate3d(0,20px,0);
 }
 
-figure.effect-bubba:hover figcaption::before,
-figure.effect-bubba:hover figcaption::after {
+figure.effect-photo5:hover figcaption::before,
+figure.effect-photo5:hover figcaption::after {
 	opacity: 1;
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
 
-figure.effect-bubba:hover h2,
-figure.effect-bubba:hover p {
+figure.effect-photo5:hover h2,
+figure.effect-photo5:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-/*---------------*/
-/***** Romeo *****/
-/*---------------*/
+/*------------------------*/
+/***** EFFECT-PHOTO4 *****/
+/*----------------------*/
 
-figure.effect-romeo {
+figure.effect-photo4 {
 	-webkit-perspective: 1000px;
 	perspective: 1000px;
 }
 
-figure.effect-romeo img {
+figure.effect-photo4 img {
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: translate3d(0,0,300px);
 	transform: translate3d(0,0,300px);
 }
 
-figure.effect-romeo:hover img {
+figure.effect-photo4:hover img {
 	opacity: 0.6;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-figure.effect-romeo figcaption::before,
-figure.effect-romeo figcaption::after {
+figure.effect-photo4 figcaption::before,
+figure.effect-photo4 figcaption::after {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -375,20 +375,20 @@ figure.effect-romeo figcaption::after {
 	transform: translate3d(-50%,-50%,0);
 }
 
-figure.effect-romeo:hover figcaption::before {
+figure.effect-photo4:hover figcaption::before {
 	opacity: 0.5;
 	-webkit-transform: translate3d(-50%,-50%,0) rotate(45deg);
 	transform: translate3d(-50%,-50%,0) rotate(45deg);
 }
 
-figure.effect-romeo:hover figcaption::after {
+figure.effect-photo4:hover figcaption::after {
 	opacity: 0.5;
 	-webkit-transform: translate3d(-50%,-50%,0) rotate(-45deg);
 	transform: translate3d(-50%,-50%,0) rotate(-45deg);
 }
 
-figure.effect-romeo h2,
-figure.effect-romeo p {
+figure.effect-photo4 h2,
+figure.effect-photo4 p {
 	position: absolute;
 	top: 50%;
 	left: 0;
@@ -397,51 +397,51 @@ figure.effect-romeo p {
 	transition: transform 0.35s;
 }
 
-figure.effect-romeo h2 {
+figure.effect-photo4 h2 {
 	-webkit-transform: translate3d(0,-50%,0) translate3d(0,-150%,0);
 	transform: translate3d(0,-50%,0) translate3d(0,-150%,0);
 }
 
-figure.effect-romeo p {
+figure.effect-photo4 p {
 	padding: 0.25em 2em;
 	-webkit-transform: translate3d(0,-50%,0) translate3d(0,150%,0);
 	transform: translate3d(0,-50%,0) translate3d(0,150%,0);
 }
 
-figure.effect-romeo:hover h2 {
+figure.effect-photo4:hover h2 {
 	-webkit-transform: translate3d(0,-50%,0) translate3d(0,-100%,0);
 	transform: translate3d(0,-50%,0) translate3d(0,-100%,0);
 }
 
-figure.effect-romeo:hover p {
+figure.effect-photo4:hover p {
 	-webkit-transform: translate3d(0,-50%,0) translate3d(0,100%,0);
 	transform: translate3d(0,-50%,0) translate3d(0,100%,0);
 }
 
-/*---------------*/
-/***** Layla *****/
-/*---------------*/
+/*------------------------*/
+/***** EFFECT-PHOTO3 *****/
+/*----------------------*/
 
-figure.effect-layla {
+figure.effect-photo3 {
 	background: #18a367;
 }
 
-figure.effect-layla img {
+figure.effect-photo3 img {
 	height: 390px;
 }
 
-figure.effect-layla figcaption {
+figure.effect-photo3 figcaption {
 	padding: 3em;
 }
 
-figure.effect-layla figcaption::before,
-figure.effect-layla figcaption::after {
+figure.effect-photo3 figcaption::before,
+figure.effect-photo3 figcaption::after {
 	position: absolute;
 	content: '';
 	opacity: 0;
 }
 
-figure.effect-layla figcaption::before {
+figure.effect-photo3 figcaption::before {
 	top: 50px;
 	right: 30px;
 	bottom: 50px;
@@ -454,7 +454,7 @@ figure.effect-layla figcaption::before {
 	transform-origin: 0 0;
 }
 
-figure.effect-layla figcaption::after {
+figure.effect-photo3 figcaption::after {
 	top: 30px;
 	right: 50px;
 	bottom: 30px;
@@ -467,13 +467,13 @@ figure.effect-layla figcaption::after {
 	transform-origin: 100% 0;
 }
 
-figure.effect-layla h2 {
+figure.effect-photo3 h2 {
 	padding-top: 26%;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 }
 
-figure.effect-layla p {
+figure.effect-photo3 p {
 	padding: 0.5em 2em;
 	text-transform: none;
 	opacity: 0;
@@ -481,67 +481,67 @@ figure.effect-layla p {
 	transform: translate3d(0,-10px,0);
 }
 
-figure.effect-layla img,
-figure.effect-layla h2 {
+figure.effect-photo3 img,
+figure.effect-photo3 h2 {
 	-webkit-transform: translate3d(0,-30px,0);
 	transform: translate3d(0,-30px,0);
 }
 
-figure.effect-layla img,
-figure.effect-layla figcaption::before,
-figure.effect-layla figcaption::after,
-figure.effect-layla p {
+figure.effect-photo3 img,
+figure.effect-photo3 figcaption::before,
+figure.effect-photo3 figcaption::after,
+figure.effect-photo3 p {
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 }
 
-figure.effect-layla:hover img {
+figure.effect-photo3:hover img {
 	opacity: 0.7;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-figure.effect-layla:hover figcaption::before,
-figure.effect-layla:hover figcaption::after {
+figure.effect-photo3:hover figcaption::before,
+figure.effect-photo3:hover figcaption::after {
 	opacity: 1;
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
 
-figure.effect-layla:hover h2,
-figure.effect-layla:hover p {
+figure.effect-photo3:hover h2,
+figure.effect-photo3:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-figure.effect-layla:hover figcaption::after,
-figure.effect-layla:hover h2,
-figure.effect-layla:hover p,
-figure.effect-layla:hover img {
+figure.effect-photo3:hover figcaption::after,
+figure.effect-photo3:hover h2,
+figure.effect-photo3:hover p,
+figure.effect-photo3:hover img {
 	-webkit-transition-delay: 0.15s;
 	transition-delay: 0.15s;
 }
 
-/*---------------*/
-/***** Honey *****/
-/*---------------*/
+/*------------------------*/
+/***** EFFECT-PHOTO2 *****/
+/*----------------------*/
 
-figure.effect-honey {
+figure.effect-photo2 {
 	background: #4a3753;
 }
 
-figure.effect-honey img {
+figure.effect-photo2 img {
 	opacity: 0.9;
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
 
-figure.effect-honey:hover img {
+figure.effect-photo2:hover img {
 	opacity: 0.5;
 }
 
-figure.effect-honey figcaption::before {
+figure.effect-photo2 figcaption::before {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -553,7 +553,7 @@ figure.effect-honey figcaption::before {
 	transform: translate3d(0,10px,0);
 }
 
-figure.effect-honey h2 {
+figure.effect-photo2 h2 {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -564,7 +564,7 @@ figure.effect-honey h2 {
 	transform: translate3d(0,-30px,0);
 }
 
-figure.effect-honey h2 i {
+figure.effect-photo2 h2 i {
 	font-style: normal;
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -573,43 +573,43 @@ figure.effect-honey h2 i {
 	transform: translate3d(0,-30px,0);
 }
 
-figure.effect-honey figcaption::before,
-figure.effect-honey h2 {
+figure.effect-photo2 figcaption::before,
+figure.effect-photo2 h2 {
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 }
 
-figure.effect-honey:hover figcaption::before,
-figure.effect-honey:hover h2,
-figure.effect-honey:hover h2 i {
+figure.effect-photo2:hover figcaption::before,
+figure.effect-photo2:hover h2,
+figure.effect-photo2:hover h2 i {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-/*---------------*/
-/***** Oscar *****/
-/*---------------*/
+/*-----------------------*/
+/***** EFFECT-PHOTO *****/
+/*---------------------*/
 
-figure.effect-oscar {
+figure.effect-photo {
 /*	background: -webkit-linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
 	background: linear-gradient(45deg, #22682a 0%,#9b4a1b 40%,#3a342a 100%);*/
 }
 
-/*figure.effect-oscar img {
+/*figure.effect-photo img {
 	opacity: 0.9;
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
 */
-figure.effect-oscar figcaption {
+figure.effect-photo figcaption {
 	padding: 15%;
 /*	background-color: rgba(58,52,42,0.7);
 	-webkit-transition: background-color 0.35s;
 	transition: background-color 0.35s;*/
 }
 
-figure.effect-oscar figcaption::before {
+figure.effect-photo figcaption::before {
 	position: absolute;
 	top: 30px;
 	right: 30px;
@@ -619,7 +619,7 @@ figure.effect-oscar figcaption::before {
 	content: '';
 }
 
-figure.effect-oscar h2 {
+figure.effect-photo h2 {
 	margin: 0;
 	line-height: 1em;
 	-webkit-transition: -webkit-transform 0.35s;
@@ -628,8 +628,8 @@ figure.effect-oscar h2 {
 	transform: translate3d(0,100%,0);
 }
 
-figure.effect-oscar figcaption::before,
-figure.effect-oscar p {
+figure.effect-photo figcaption::before,
+figure.effect-photo p {
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
@@ -637,36 +637,36 @@ figure.effect-oscar p {
 	transform: scale(0);
 }
 
-figure.effect-oscar:hover h2 {
+figure.effect-photo:hover h2 {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-figure.effect-oscar:hover figcaption::before,
-figure.effect-oscar:hover p {
+figure.effect-photo:hover figcaption::before,
+figure.effect-photo:hover p {
 	opacity: 1;
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
 
-figure.effect-oscar:hover figcaption {
+figure.effect-photo:hover figcaption {
 	background-color: rgba(0,0,0,0.8);
 }
 
-figure.effect-oscar:hover img {
+figure.effect-photo:hover img {
 	opacity: 0.4;
 }
 
-/*---------------*/
-/***** Marley *****/
-/*---------------*/
+/*------------------------*/
+/***** EFFECT-PHOTO9 *****/
+/*----------------------*/
 
-figure.effect-marley figcaption {
+figure.effect-photo9 figcaption {
 	text-align: right;
 }
 
-figure.effect-marley h2,
-figure.effect-marley p {
+figure.effect-photo9 h2,
+figure.effect-photo9 p {
 	position: absolute;
 	right: 30px;
 	left: 30px;
@@ -674,14 +674,14 @@ figure.effect-marley p {
 }
 
 
-figure.effect-marley p {
+figure.effect-photo9 p {
 	bottom: 30px;
 	line-height: 1.5;
 	-webkit-transform: translate3d(0,100%,0);
 	transform: translate3d(0,100%,0);
 }
 
-figure.effect-marley h2 {
+figure.effect-photo9 h2 {
 	top: 30px;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
@@ -689,12 +689,12 @@ figure.effect-marley h2 {
 	transform: translate3d(0,20px,0);
 }
 
-figure.effect-marley:hover h2 {
+figure.effect-photo9:hover h2 {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-figure.effect-marley h2::after {
+figure.effect-photo9 h2::after {
 	position: absolute;
 	top: 100%;
 	left: 0;
@@ -706,29 +706,29 @@ figure.effect-marley h2::after {
 	transform: translate3d(0,40px,0);
 }
 
-figure.effect-marley h2::after,
-figure.effect-marley p {
+figure.effect-photo9 h2::after,
+figure.effect-photo9 p {
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 }
 
-figure.effect-marley:hover h2::after,
-figure.effect-marley:hover p {
+figure.effect-photo9:hover h2::after,
+figure.effect-photo9:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-/*---------------*/
-/***** Ruby *****/
-/*---------------*/
+/*-------------------------*/
+/***** EFFECT-PHOTO10 *****/
+/*-----------------------*/
 
-figure.effect-ruby {
+figure.effect-photo10 {
 	background-color: #17819c;
 }
 
-figure.effect-ruby img {
+figure.effect-photo10 img {
 	opacity: 0.7;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
@@ -736,13 +736,13 @@ figure.effect-ruby img {
 	transform: scale(1.15);
 }
 
-figure.effect-ruby:hover img {
+figure.effect-photo10:hover img {
 	opacity: 0.5;
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
 
-figure.effect-ruby h2 {
+figure.effect-photo10 h2 {
 	margin-top: 20%;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
@@ -750,7 +750,7 @@ figure.effect-ruby h2 {
 	transform: translate3d(0,20px,0);
 }
 
-figure.effect-ruby p {
+figure.effect-photo10 p {
 	margin: 1em 0 0;
 	padding: 3em;
 	border: 1px solid #fff;
@@ -761,26 +761,26 @@ figure.effect-ruby p {
 	transform: translate3d(0,20px,0) scale(1.1);
 } 
 
-figure.effect-ruby:hover h2 {
+figure.effect-photo10:hover h2 {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-figure.effect-ruby:hover p {
+figure.effect-photo10:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0) scale(1);
 	transform: translate3d(0,0,0) scale(1);
 }
 
-/*---------------*/
-/***** Milo *****/
-/*---------------*/
+/*-------------------------*/
+/***** EFFECT-PHOTO11 *****/
+/*-----------------------*/
 
-figure.effect-milo {
+figure.effect-photo11 {
 	background: #2e5d5a;
 }
 
-figure.effect-milo img {
+figure.effect-photo11 img {
 	max-width: none;
 	width: -webkit-calc(100% + 60px);
 	width: calc(100% + 60px);
@@ -793,20 +793,20 @@ figure.effect-milo img {
 	backface-visibility: hidden;
 }
 
-figure.effect-milo:hover img {
+figure.effect-photo11:hover img {
 	opacity: 0.5;
 	-webkit-transform: translate3d(0,0,0) scale(1);
 	transform: translate3d(0,0,0) scale(1);
 }
 
-figure.effect-milo h2 {
+figure.effect-photo11 h2 {
 	position: absolute;
 	right: 0;
 	bottom: 0;
 	padding: 1em 1.2em;
 }
 
-figure.effect-milo p {
+figure.effect-photo11 p {
 	padding: 0 10px 0 0;
 	width: 50%;
 	border-right: 1px solid #fff;
@@ -818,31 +818,31 @@ figure.effect-milo p {
 	transform: translate3d(-40px,0,0);
 }
 
-figure.effect-milo:hover p {
+figure.effect-photo11:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-/*---------------*/
-/***** Dexter *****/
-/*---------------*/
+/*-------------------------*/
+/***** EFFECT-PHOTO12 *****/
+/*-----------------------*/
 
-figure.effect-dexter {
+figure.effect-photo12 {
 	background: -webkit-linear-gradient(top, rgba(37,141,200,1) 0%, rgba(104,60,19,1) 100%);
 	background: linear-gradient(to bottom, rgba(37,141,200,1) 0%,rgba(104,60,19,1) 100%); 
 }
 
-figure.effect-dexter img {
+figure.effect-photo12 img {
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
 
-figure.effect-dexter:hover img {
+figure.effect-photo12:hover img {
 	opacity: 0.4;
 }
 
-figure.effect-dexter figcaption::after {
+figure.effect-photo12 figcaption::after {
 	position: absolute;
 	right: 30px;
 	bottom: 30px;
@@ -857,17 +857,17 @@ figure.effect-dexter figcaption::after {
 	transform: translate3d(0,-100%,0);
 }
 
-figure.effect-dexter:hover figcaption::after {
+figure.effect-photo12:hover figcaption::after {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-figure.effect-dexter figcaption {
+figure.effect-photo12 figcaption {
 	padding: 3em;
 	text-align: left;
 }
 
-figure.effect-dexter p {
+figure.effect-photo12 p {
 	position: absolute;
 	right: 60px;
 	bottom: 60px;
@@ -879,21 +879,21 @@ figure.effect-dexter p {
 	transform: translate3d(0,-100px,0);
 }
 
-figure.effect-dexter:hover p {
+figure.effect-photo12:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-/*---------------*/
-/***** Sarah *****/
-/*---------------*/
+/*-------------------------*/
+/***** EFFECT-PHOTO13 *****/
+/*-----------------------*/
 
-figure.effect-sarah {
+figure.effect-photo13 {
 	background: #42b078;
 }
 
-figure.effect-sarah img {
+figure.effect-photo13 img {
 	max-width: none;
 	width: -webkit-calc(100% + 20px);
 	width: calc(100% + 20px);
@@ -905,23 +905,23 @@ figure.effect-sarah img {
 	backface-visibility: hidden;
 }
 
-figure.effect-sarah:hover img {
+figure.effect-photo13:hover img {
 	opacity: 0.4;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-figure.effect-sarah figcaption {
+figure.effect-photo13 figcaption {
 	text-align: left;
 }
 
-figure.effect-sarah h2 {
+figure.effect-photo13 h2 {
 	position: relative;
 	overflow: hidden;
 	padding: 0.5em 0;
 }
 
-figure.effect-sarah h2::after {
+figure.effect-photo13 h2::after {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -935,12 +935,12 @@ figure.effect-sarah h2::after {
 	transform: translate3d(-100%,0,0);
 }
 
-figure.effect-sarah:hover h2::after {
+figure.effect-photo13:hover h2::after {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-figure.effect-sarah p {
+figure.effect-photo13 p {
 	padding: 1em 0;
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -949,17 +949,17 @@ figure.effect-sarah p {
 	transform: translate3d(100%,0,0);
 }
 
-figure.effect-sarah:hover p {
+figure.effect-photo13:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-/*---------------*/
-/***** Zoe *****/
-/*---------------*/
+/*-------------------------*/
+/***** EFFECT-PHOTO14 *****/
+/*-----------------------*/
 
-figure.effect-zoe figcaption {
+figure.effect-photo14 figcaption {
 	top: auto;
 	bottom: 0;
 	padding: 1em;
@@ -972,22 +972,22 @@ figure.effect-zoe figcaption {
 	transform: translate3d(0,100%,0);
 }
 
-figure.effect-zoe h2 {
+figure.effect-photo14 h2 {
 	float: left;
 }
 
-figure.effect-zoe p.icon-links a {
+figure.effect-photo14 p.icon-links a {
 	float: right;
 	color: #3c4a50;
 	font-size: 1.4em;
 }
 
-figure.effect-zoe:hover p.icon-links a:hover,
-figure.effect-zoe:hover p.icon-links a:focus {
+figure.effect-photo14:hover p.icon-links a:hover,
+figure.effect-photo14:hover p.icon-links a:focus {
 	color: #252d31;
 }
 
-figure.effect-zoe p.description {
+figure.effect-photo14 p.description {
 	position: absolute;
 	bottom: 8em;
 	padding: 2em;
@@ -1000,15 +1000,15 @@ figure.effect-zoe p.description {
 	-webkit-backface-visibility: hidden; /* Fix for Chrome 37.0.2062.120 (Mac) */
 }
 
-figure.effect-zoe h2,
-figure.effect-zoe p.icon-links a {
+figure.effect-photo14 h2,
+figure.effect-photo14 p.icon-links a {
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,200%,0);
 	transform: translate3d(0,200%,0);
 }
 
-figure.effect-zoe p.icon-links a span::before {
+figure.effect-photo14 p.icon-links a span::before {
 	display: inline-block;
 	padding: 8px 10px;
 	font-family: 'feathericons';
@@ -1029,63 +1029,63 @@ figure.effect-zoe p.icon-links a span::before {
 	content: '\e024';
 }
 
-figure.effect-zoe h2 {
+figure.effect-photo14 h2 {
 	display: inline-block;
 }
 
-figure.effect-zoe:hover p.description {
+figure.effect-photo14:hover p.description {
 	opacity: 1;
 }
 
-figure.effect-zoe:hover figcaption,
-figure.effect-zoe:hover h2,
-figure.effect-zoe:hover p.icon-links a {
+figure.effect-photo14:hover figcaption,
+figure.effect-photo14:hover h2,
+figure.effect-photo14:hover p.icon-links a {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-figure.effect-zoe:hover h2 {
+figure.effect-photo14:hover h2 {
 	-webkit-transition-delay: 0.05s;
 	transition-delay: 0.05s;
 }
 
-figure.effect-zoe:hover p.icon-links a:nth-child(3) {
+figure.effect-photo14:hover p.icon-links a:nth-child(3) {
 	-webkit-transition-delay: 0.1s;
 	transition-delay: 0.1s;
 }
 
-figure.effect-zoe:hover p.icon-links a:nth-child(2) {
+figure.effect-photo14:hover p.icon-links a:nth-child(2) {
 	-webkit-transition-delay: 0.15s;
 	transition-delay: 0.15s;
 }
 
-figure.effect-zoe:hover p.icon-links a:first-child {
+figure.effect-photo14:hover p.icon-links a:first-child {
 	-webkit-transition-delay: 0.2s;
 	transition-delay: 0.2s;
 }
 
-/*---------------*/
-/***** Chico *****/
-/*---------------*/
+/*-------------------------*/
+/***** EFFECT-PHOTO15 *****/
+/*-----------------------*/
 
-figure.effect-chico img {
+figure.effect-photo15 img {
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: scale(1.12);
 	transform: scale(1.12);
 }
 
-figure.effect-chico:hover img {
+figure.effect-photo15:hover img {
 	opacity: 0.5;
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
 
-figure.effect-chico figcaption {
+figure.effect-photo15 figcaption {
 	padding: 3em;	
 }
 
-figure.effect-chico figcaption::before {
+figure.effect-photo15 figcaption::before {
 	position: absolute;
 	top: 30px;
 	right: 30px;
@@ -1098,26 +1098,26 @@ figure.effect-chico figcaption::before {
 	background: rgba(0,0,0,0.5);
 }
 
-figure.effect-chico figcaption::before,
-figure.effect-chico p {
+figure.effect-photo15 figcaption::before,
+figure.effect-photo15 p {
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 }
 
-figure.effect-chico h2 {
+figure.effect-photo15 h2 {
 	padding: 20% 0 20px 0;
 }
 
-figure.effect-chico p {
+figure.effect-photo15 p {
 	margin: 0 auto;
 	max-width: 200px;
 	-webkit-transform: scale(1.5);
 	transform: scale(1.5);
 }
 
-figure.effect-chico:hover figcaption::before,
-figure.effect-chico:hover p {
+figure.effect-photo15:hover figcaption::before,
+figure.effect-photo15:hover p {
 	opacity: 1;
 	-webkit-transform: scale(1);
 	transform: scale(1);
